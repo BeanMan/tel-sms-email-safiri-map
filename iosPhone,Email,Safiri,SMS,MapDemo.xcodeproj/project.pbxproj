@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D104DC1C7D82020065C53A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D104DB1C7D82020065C53A /* main.m */; };
+		07D104DF1C7D82020065C53A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D104DE1C7D82020065C53A /* AppDelegate.m */; };
+		07D104E21C7D82020065C53A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D104E11C7D82020065C53A /* ViewController.m */; };
+		07D104E51C7D82020065C53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D104E31C7D82020065C53A /* Main.storyboard */; };
+		07D104E71C7D82020065C53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D104E61C7D82020065C53A /* Assets.xcassets */; };
+		07D104EA1C7D82020065C53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D104E81C7D82020065C53A /* LaunchScreen.storyboard */; };
+		07D104F51C7D82020065C53A /* iosPhone_Email_Safiri_SMS_MapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D104F41C7D82020065C53A /* iosPhone_Email_Safiri_SMS_MapDemoTests.m */; };
+		07D105001C7D82020065C53A /* iosPhone_Email_Safiri_SMS_MapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D104FF1C7D82020065C53A /* iosPhone_Email_Safiri_SMS_MapDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D104F11C7D82020065C53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D104CF1C7D82010065C53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D104D61C7D82020065C53A;
+			remoteInfo = "iosPhone,Email,Safiri,SMS,MapDemo";
+		};
+		07D104FC1C7D82020065C53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D104CF1C7D82010065C53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D104D61C7D82020065C53A;
+			remoteInfo = "iosPhone,Email,Safiri,SMS,MapDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D104D71C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosPhone,Email,Safiri,SMS,MapDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D104DB1C7D82020065C53A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07D104DD1C7D82020065C53A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07D104DE1C7D82020065C53A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07D104E01C7D82020065C53A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07D104E11C7D82020065C53A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07D104E41C7D82020065C53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07D104E61C7D82020065C53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D104E91C7D82020065C53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07D104EB1C7D82020065C53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D104F01C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iosPhone,Email,Safiri,SMS,MapDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D104F41C7D82020065C53A /* iosPhone_Email_Safiri_SMS_MapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosPhone_Email_Safiri_SMS_MapDemoTests.m; sourceTree = "<group>"; };
+		07D104F61C7D82020065C53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D104FB1C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iosPhone,Email,Safiri,SMS,MapDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D104FF1C7D82020065C53A /* iosPhone_Email_Safiri_SMS_MapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosPhone_Email_Safiri_SMS_MapDemoUITests.m; sourceTree = "<group>"; };
+		07D105011C7D82030065C53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D104D41C7D82020065C53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D104ED1C7D82020065C53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D104F81C7D82020065C53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D104CE1C7D82010065C53A = {
+			isa = PBXGroup;
+			children = (
+				07D104D91C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemo */,
+				07D104F31C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoTests */,
+				07D104FE1C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoUITests */,
+				07D104D81C7D82020065C53A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07D104D81C7D82020065C53A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D104D71C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemo.app */,
+				07D104F01C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoTests.xctest */,
+				07D104FB1C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D104D91C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				07D104DD1C7D82020065C53A /* AppDelegate.h */,
+				07D104DE1C7D82020065C53A /* AppDelegate.m */,
+				07D104E01C7D82020065C53A /* ViewController.h */,
+				07D104E11C7D82020065C53A /* ViewController.m */,
+				07D104E31C7D82020065C53A /* Main.storyboard */,
+				07D104E61C7D82020065C53A /* Assets.xcassets */,
+				07D104E81C7D82020065C53A /* LaunchScreen.storyboard */,
+				07D104EB1C7D82020065C53A /* Info.plist */,
+				07D104DA1C7D82020065C53A /* Supporting Files */,
+			);
+			path = "iosPhone,Email,Safiri,SMS,MapDemo";
+			sourceTree = "<group>";
+		};
+		07D104DA1C7D82020065C53A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D104DB1C7D82020065C53A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07D104F31C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				07D104F41C7D82020065C53A /* iosPhone_Email_Safiri_SMS_MapDemoTests.m */,
+				07D104F61C7D82020065C53A /* Info.plist */,
+			);
+			path = "iosPhone,Email,Safiri,SMS,MapDemoTests";
+			sourceTree = "<group>";
+		};
+		07D104FE1C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07D104FF1C7D82020065C53A /* iosPhone_Email_Safiri_SMS_MapDemoUITests.m */,
+				07D105011C7D82030065C53A /* Info.plist */,
+			);
+			path = "iosPhone,Email,Safiri,SMS,MapDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D104D61C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D105041C7D82030065C53A /* Build configuration list for PBXNativeTarget "iosPhone,Email,Safiri,SMS,MapDemo" */;
+			buildPhases = (
+				07D104D31C7D82020065C53A /* Sources */,
+				07D104D41C7D82020065C53A /* Frameworks */,
+				07D104D51C7D82020065C53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iosPhone,Email,Safiri,SMS,MapDemo";
+			productName = "iosPhone,Email,Safiri,SMS,MapDemo";
+			productReference = 07D104D71C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07D104EF1C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D105071C7D82030065C53A /* Build configuration list for PBXNativeTarget "iosPhone,Email,Safiri,SMS,MapDemoTests" */;
+			buildPhases = (
+				07D104EC1C7D82020065C53A /* Sources */,
+				07D104ED1C7D82020065C53A /* Frameworks */,
+				07D104EE1C7D82020065C53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D104F21C7D82020065C53A /* PBXTargetDependency */,
+			);
+			name = "iosPhone,Email,Safiri,SMS,MapDemoTests";
+			productName = "iosPhone,Email,Safiri,SMS,MapDemoTests";
+			productReference = 07D104F01C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07D104FA1C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D1050A1C7D82030065C53A /* Build configuration list for PBXNativeTarget "iosPhone,Email,Safiri,SMS,MapDemoUITests" */;
+			buildPhases = (
+				07D104F71C7D82020065C53A /* Sources */,
+				07D104F81C7D82020065C53A /* Frameworks */,
+				07D104F91C7D82020065C53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D104FD1C7D82020065C53A /* PBXTargetDependency */,
+			);
+			name = "iosPhone,Email,Safiri,SMS,MapDemoUITests";
+			productName = "iosPhone,Email,Safiri,SMS,MapDemoUITests";
+			productReference = 07D104FB1C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D104CF1C7D82010065C53A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.xile;
+				TargetAttributes = {
+					07D104D61C7D82020065C53A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					07D104EF1C7D82020065C53A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 07D104D61C7D82020065C53A;
+					};
+					07D104FA1C7D82020065C53A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 07D104D61C7D82020065C53A;
+					};
+				};
+			};
+			buildConfigurationList = 07D104D21C7D82010065C53A /* Build configuration list for PBXProject "iosPhone,Email,Safiri,SMS,MapDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D104CE1C7D82010065C53A;
+			productRefGroup = 07D104D81C7D82020065C53A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D104D61C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemo */,
+				07D104EF1C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoTests */,
+				07D104FA1C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D104D51C7D82020065C53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D104EA1C7D82020065C53A /* LaunchScreen.storyboard in Resources */,
+				07D104E71C7D82020065C53A /* Assets.xcassets in Resources */,
+				07D104E51C7D82020065C53A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D104EE1C7D82020065C53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D104F91C7D82020065C53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D104D31C7D82020065C53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D104E21C7D82020065C53A /* ViewController.m in Sources */,
+				07D104DF1C7D82020065C53A /* AppDelegate.m in Sources */,
+				07D104DC1C7D82020065C53A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D104EC1C7D82020065C53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D104F51C7D82020065C53A /* iosPhone_Email_Safiri_SMS_MapDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D104F71C7D82020065C53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D105001C7D82020065C53A /* iosPhone_Email_Safiri_SMS_MapDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D104F21C7D82020065C53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D104D61C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemo */;
+			targetProxy = 07D104F11C7D82020065C53A /* PBXContainerItemProxy */;
+		};
+		07D104FD1C7D82020065C53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D104D61C7D82020065C53A /* iosPhone,Email,Safiri,SMS,MapDemo */;
+			targetProxy = 07D104FC1C7D82020065C53A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07D104E31C7D82020065C53A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D104E41C7D82020065C53A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07D104E81C7D82020065C53A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D104E91C7D82020065C53A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D105021C7D82030065C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07D105031C7D82030065C53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D105051C7D82030065C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iosPhone,Email,Safiri,SMS,MapDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.iosPhone-Email-Safiri-SMS-MapDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07D105061C7D82030065C53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iosPhone,Email,Safiri,SMS,MapDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.iosPhone-Email-Safiri-SMS-MapDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07D105081C7D82030065C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iosPhone,Email,Safiri,SMS,MapDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.iosPhone-Email-Safiri-SMS-MapDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosPhone,Email,Safiri,SMS,MapDemo.app/iosPhone,Email,Safiri,SMS,MapDemo";
+			};
+			name = Debug;
+		};
+		07D105091C7D82030065C53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iosPhone,Email,Safiri,SMS,MapDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.iosPhone-Email-Safiri-SMS-MapDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosPhone,Email,Safiri,SMS,MapDemo.app/iosPhone,Email,Safiri,SMS,MapDemo";
+			};
+			name = Release;
+		};
+		07D1050B1C7D82030065C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iosPhone,Email,Safiri,SMS,MapDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.iosPhone-Email-Safiri-SMS-MapDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iosPhone,Email,Safiri,SMS,MapDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07D1050C1C7D82030065C53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iosPhone,Email,Safiri,SMS,MapDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xile.iosPhone-Email-Safiri-SMS-MapDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iosPhone,Email,Safiri,SMS,MapDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D104D21C7D82010065C53A /* Build configuration list for PBXProject "iosPhone,Email,Safiri,SMS,MapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D105021C7D82030065C53A /* Debug */,
+				07D105031C7D82030065C53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D105041C7D82030065C53A /* Build configuration list for PBXNativeTarget "iosPhone,Email,Safiri,SMS,MapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D105051C7D82030065C53A /* Debug */,
+				07D105061C7D82030065C53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07D105071C7D82030065C53A /* Build configuration list for PBXNativeTarget "iosPhone,Email,Safiri,SMS,MapDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D105081C7D82030065C53A /* Debug */,
+				07D105091C7D82030065C53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07D1050A1C7D82030065C53A /* Build configuration list for PBXNativeTarget "iosPhone,Email,Safiri,SMS,MapDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D1050B1C7D82030065C53A /* Debug */,
+				07D1050C1C7D82030065C53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D104CF1C7D82010065C53A /* Project object */;
+}
